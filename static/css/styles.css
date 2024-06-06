@@ -174,3 +174,37 @@ body.nav-active {
     justify-items: center;
     transition: (--transition-2);
  }
+
+
+
+/* Select all root elements where the parent is .preload.loaded */
+ .preload > * {transition: var(--transition-1);}
+
+ .preload.loaded > * { 
+opacity: 0; 
+}
+
+.preload.loaded {
+    transition-delay: 250ms;
+    transform: translateY(100%);
+ }
+
+  .preload .text {
+    font-size: calc(5rem + 3vw);
+    color: #000;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+  }
+  
+  .loader {
+    width: 300px;
+    height: 20px;
+    -webkit-mask: linear-gradient(90deg,#000 70%,#0000 0) left/20% 100%;
+    background:
+     linear-gradient(#000 0 0) left -25% top 0 /20% 100% no-repeat
+     #ddd;
+    animation: l7 1s infinite steps(6);
+  }
+  @keyframes l7 {
+      100% {background-position: right -25% top 0}
+  }
