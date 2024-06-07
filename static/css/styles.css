@@ -167,7 +167,7 @@ body.nav-active {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--gold-crayola);
+    background-color: black;
     z-index: 10;
     display: grid;
     place-content: center;
@@ -191,7 +191,7 @@ opacity: 0;
 
   .preload .text {
     font-size: calc(5rem + 3vw);
-    color: #000;
+    color: white;
     font-weight: var(--weight-bold);
     text-transform: uppercase;
   }
