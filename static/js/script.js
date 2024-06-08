@@ -1,4 +1,3 @@
-
 'use strict';
 
 // This function will be called when the HTML Content is loaded in 
@@ -16,5 +15,3 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error('Preloader element not found');
     }
 });
-
-

@@ -208,3 +208,8 @@ opacity: 0;
   @keyframes l7 {
       100% {background-position: right -25% top 0}
   }
+
+
+  .info {
+    display: none;
+  }

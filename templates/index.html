@@ -24,26 +24,56 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Top Bar -->
-    <div class="navbar"> 
+    <!-- Info -->
+    <div class="info"> 
         <div class="container">
-            <address class="navbar_item">
-                <span class="span">
-                    1496 Lower Water Street, Halifax, Nova Scotia, CA
-                </span>
-                <div class="separator"></div>
 
-                <a href="tel: (902)-422-0077" class="navbar_item">
-                    <div class="phone_icon">
-                        <ion-icon name="call-outline"></ion-icon>
-                    </div>
-                    <span class="span">(902)-422-0077</span>
-                </a>
-
-
+            <!--Address-->
+            <address class="info_item">    
+                <span class="span">1496 Lower Water Street, Halifax, Nova Scotia, CA</span>
             </address>
+            
+            <div class="separator"></div>
+            
+            <!--Telephone-->
+            <a href="tel: (902)-422-0077" class="info_item">
+                <div class="phone_icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <span class="span">(902)-422-0077</span>
+            </a>
+
+            <div class="separator"></div>
+            
+            <!--Email-->
+            <a href="mailto: tawagrillhalifax@gmail.com" class="info_item">
+                <div class="mail_icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <span class="span">tawagrillhalifax@gmail.com</span>
+            </a>
         </div>
     </div>
+
+    <!-- Header -->
+    <header class="header" data-header>
+
+        <nav class="navbar" data-nav>
+            <button class="close" data-nav-toggle>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <ul class="navbar-list">
+
+            <li class="navbar-item">
+                <a href="/" class="navbar-link hover-underline active">Home</a>
+            </li>
+
+        </ul>
+
+    </header>
+
 
 
     <!-- Java Script -->
