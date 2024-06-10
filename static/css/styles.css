@@ -69,6 +69,100 @@
 --transition-3: 1000ms ease;
 }
 
+
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+img,
+data,
+span,
+input,
+button,
+section
+textarea {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+}
+
+input,
+button,
+select,
+textarea {
+    background-color: none;
+    border: none;
+    font: inherit;
+}
+
+
+input,
+select,
+textarea {
+  width: 100%;
+  outline: none;
+}
+
+button { 
+    cursor: pointer;
+}
+
+address { 
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--white);
+    font-family: var(--fontFamily-dm_sans);
+    font-size: var(--fontSize-body-4);
+    font-weight: var(--weight-regular);
+    line-height: var(--lineHeight-5);
+    /* Turn on scroll */
+    /* overflow: overlay; */
+    /* Turn off scroll */
+    overflow: hidden;
+    height: 300vh;
+}
+
+body.loaded {
+    overflow: overlay;
+}
+
+body.nav-active {
+    overflow: hidden;
+}
+
+
+::-webkit-scrollbar-track { 
+    background-color: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--gold-crayola);
+}
+
 /* Typography */
 
 .display-1,
@@ -140,104 +234,19 @@
     font-size: var(--fontSize-label-2);
 }
 
-*,
-*::before
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.preload {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: var(--darkcherry);
+z-index: 10;
+display: grid;
+place-content: center;
+justify-items: center;
+transition: (--transition-2);
 }
-
-li {
-    list-style: none;
-}
-
-a,
-img,
-data,
-span,
-input,
-button,
-section
-textarea {
-    display: black;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-img {
-    height: auto;
-}
-
-input,
-button,
-select,
-textarea {
-    background-color: none;
-    border: none;
-    font: inherit;
-}
-
-button { 
-    cursor: pointer;
-}
-
-address { 
-    font-style: normal;
-}
-
-html {
-    font-size: 10px;
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: var(--darkbrown);
-    color: var(--white);
-    font-family: var(--fontFamily-dm_sans);
-    font-size: var(--fontSize-body-4);
-    font-weight: var(--weight-regular);
-    line-height: var(--lineHeight-5);
-    /* Turn on scroll */
-    /* overflow: overlay; */
-    /* Turn off scroll */
-    overflow: hidden;
-    height: 300vh;
-}
-
-body.loaded {
-    overflow: overlay;
-}
-
-body.nav-active {
-    overflow: hidden;
-}
-
-
-::-webkit-scrollbar-track { 
-    background-color: transparent; 
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--gold-crayola);
-}
-
- .preload {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--darkcherry);
-    z-index: 10;
-    display: grid;
-    place-content: center;
-    justify-items: center;
-    transition: (--transition-2);
- }
 
 
 
@@ -253,75 +262,75 @@ opacity: 0;
     transform: translateY(100%);
  }
 
-  .preload .text {
-    font-size: calc(5rem + 3vw);
-    color: white;
-    font-weight: var(--weight-bold);
-    text-transform: uppercase;
-  }
+.preload .text {
+font-size: calc(5rem + 3vw);
+color: white;
+font-weight: var(--weight-bold);
+text-transform: uppercase;
+}
   
-  .loader {
-    width: 300px;
-    height: 20px;
-    -webkit-mask: linear-gradient(90deg,#000 70%,#0000 0) left/20% 100%;
-    background:
-     linear-gradient(#000 0 0) left -25% top 0 /20% 100% no-repeat
-     #ddd;
-    animation: l7 1s infinite steps(6);
-  }
-  @keyframes l7 {
-      100% {background-position: right -25% top 0}
-  }
+.loader {
+width: 300px;
+height: 20px;
+-webkit-mask: linear-gradient(90deg,#000 70%,#0000 0) left/20% 100%;
+background:
+    linear-gradient(#000 0 0) left -25% top 0 /20% 100% no-repeat
+    #ddd;
+animation: l7 1s infinite steps(6);
+}
+@keyframes l7 {
+    100% {background-position: right -25% top 0}
+}
 
 
-  .info {
-    display: none;
-  }
+.info {
+display: none;
+}
 
-  .container {
+.container {
 
-    padding-inline: 20px;
+padding-inline: 20px;
 
-  }
-
-
-  .booking-label {
-    font-weight: bold;
-  }
+}
 
 
-  .text-center {
-    text-align: center;
-  }
+.booking-label {
+font-weight: bold;
+}
 
 
-  .contact-number {
-    font-weight: bold;
-  }
-
-  .hover-underline {
-
-    position: relative;
-  }
-
-  .contact-number {
-    box-shadow: inset 0 0 0 0 var(--green2);
-    color: var(--cream);
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  }
-  .contact-number:hover {
-    box-shadow: inset 100vw 0 0 0 var(--green2);
-    color: white;
-  }
+.text-center {
+text-align: center;
+}
 
 
-  /* Topbar */
+.contact-number {
+font-weight: bold;
+}
 
-  .topbar { display: none; }
+.hover-underline {
 
-  /* Header */
+position: relative;
+}
+
+.contact-number {
+box-shadow: inset 0 0 0 0 var(--green2);
+color: var(--cream);
+margin: 0 -.25rem;
+padding: 0 .25rem;
+transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.contact-number:hover {
+box-shadow: inset 100vw 0 0 0 var(--green2);
+color: white;
+}
+
+
+/* Topbar */
+
+.topbar { display: none; }
+
+/* Header */
 .navbar,
 .overlay,
 .header .btn { display: none; }
@@ -361,17 +370,30 @@ opacity: 0;
 .nav-open-btn {
     padding: 12px;
     padding-inline-end: 0;
-    background-color: black;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
 }
 
-.nav-open-btn .line {
-
-    width: 30px;
+.nav-open-btn .line  {
+    width: 50%;
     height: 2px;
-    background-color: white;
-    margin-block: 4px;
+    background-color: black; /* Ensure the color is set to black */
+    margin: 5px 0;
+    color: black;
     transform-origin: left;
-    animation: menuBtn 400ms ease-in-out alternate infinite
-
+    animation: menuBtn 400ms ease-in-out alternate infinite;
 }
 
+@keyframes menuBtn {
+    0% { transform: scale(1); }
+    100% { transform: scaleX(0.5); }
+}
+
+.nav-open-btn .line3 {
+    animation-delay: 300ms;
+}
+
+.nav-open-btn .line2 {
+    animation-delay: 1500ms;
+}
