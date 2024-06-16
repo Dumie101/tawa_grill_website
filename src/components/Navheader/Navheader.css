@@ -1,0 +1,42 @@
+/* Navheader.css */
+.header {
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address_line {
+    display: inline-flex;
+}
+
+.address {
+    margin-left: 8px; 
+}
+
+.time_line {
+    display: inline-flex;
+}
+
+.time {
+    margin-left: 8px; 
+}
+
+
+
+
+.phone_line {
+    display: inline-flex;
+}
+
+.phone {
+    margin-left: 8px;
+}
+
+.mail_line {
+    display: inline-flex;
+}
+
+.mail {
+    margin-left: 10px;
+}
