@@ -26,7 +26,7 @@ const Navbar = () => {
           <li className="p__opensans"><a href='#contact'>CONTACT</a></li>
         </ul>
 
-        <NavButton></NavButton>
+        <NavButton className="tableButton"></NavButton>
 
                     
         <div className='navbar-smallscreen'>
