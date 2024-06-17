@@ -21,6 +21,8 @@ const Navheader = () => {
                   <p className="time">Daily: 8:00 am to 10:00 pm</p>
                 </div>
 
+                <div className='spacing'></div>
+
                 <div className="phone_line">
                     <FaPhoneAlt />
                     <a href="tel:(902)-422-0077" className="phone">+ 1-902-422-0077</a>
