@@ -1,0 +1,10 @@
+.sub {
+    margin-bottom: '1rem';
+}
+
+.sub_header_p {
+
+    color: white;
+    font-family: var(--font-base);
+
+}

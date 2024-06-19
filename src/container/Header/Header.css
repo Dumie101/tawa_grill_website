@@ -1,0 +1,19 @@
+
+
+.header {
+    background-color: #5e0a0a;
+}
+
+.header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 85px;
+}
+
+.header-img img {
+    width: 80%;
+}
+

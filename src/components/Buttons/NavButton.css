@@ -7,7 +7,7 @@ transition: all 0.2s ease-in;
 position: relative;
 overflow: hidden;
 font-size: 25px;
-font-family: "Arapey", serif;
+font-family: var(--font-base);
 font-weight: bold;
 cursor: pointer;
 color: black;

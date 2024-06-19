@@ -1,5 +1,5 @@
 /* Navheader.css */
-.header {
+.nav-header {
     width: 100%;
     padding: 1rem 1rem;
     display: flex;
@@ -18,21 +18,21 @@
   .phone,
   .mail {
     margin-left: 8px;
+    font-family: var(--font-base);
   }
   
   .spacing {
-    width: 30%;
+    width: 40%;
   }
 
+  .divider {
+  }
 
 
 @media screen and (max-width: 1150px) {
 
-    .header {
+    .nav-header {
         display: none;
     }
 
 }
-
-
-

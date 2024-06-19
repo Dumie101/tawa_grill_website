@@ -19,8 +19,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  min-height: 100vh;
 }
 
 .app__wrapper_info {
@@ -38,7 +36,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 2rem;
 }
 

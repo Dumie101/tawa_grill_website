@@ -4,6 +4,8 @@ import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import tawalogo from '../assets/logo.svg';
+import spoon from '../assets/spoon.svg'
+import headerImg from '../assets/header.JPG'
 
 export default {
   award01,
@@ -11,4 +13,6 @@ export default {
   award03,
   award05,
   tawalogo,
+  spoon,
+  headerImg,
 };
