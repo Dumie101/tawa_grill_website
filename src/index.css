@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {
+
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
-  
+
+  --color-cream: #FFF0E0;
   --color-golden: #DCCA87;
+  --color-green: #24482E; 
+  --color--background: #0C0C0C;
+
+
   --color-black: #0C0C0C;
   --color-gray: #545454;
   --color-crimson: #F5EFDB;
@@ -20,7 +26,7 @@
 }
 
 a {
-  color: unset;
+  color: white;
   text-decoration: none;
 }
 

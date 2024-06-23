@@ -1,9 +1,11 @@
 /* Navheader.css */
 .nav-header {
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
+    background-color: var(--color--background);
+    border-bottom: 0.5px solid white;
   }
   
   .address_line,
@@ -11,6 +13,7 @@
   .phone_line,
   .mail_line {
     display: inline-flex;
+    color: white;
   }
   
   .address,
@@ -19,13 +22,15 @@
   .mail {
     margin-left: 8px;
     font-family: var(--font-base);
+    font-size: 18px;
   }
   
   .spacing {
-    width: 40%;
+    width: 30%;
   }
 
   .divider {
+    color: white;
   }
 
 

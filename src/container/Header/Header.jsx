@@ -8,7 +8,6 @@ const Header = () => (
   <div className="header app__wrapper section__padding" id="home">
 
     <div className="app__wrapper_info">
-      <SubHeading></SubHeading>
 
       <h1 className="header-h1">Specializing in authentic indian flavours</h1>
       <p className="p__opensans" style={{margin: '2rem 0'}}>
@@ -20,13 +19,11 @@ const Header = () => (
         Whether you're celebrating a special occasion or simply enjoying a 
         casual night out, we offer the perfect place to gather with loved ones 
         and create lasting memories.</p>
-
         <button type="button" className="custom__button">Explore Menu</button>
-
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.headerImg}/>
+      <img src={images.header_food_image}/>
     </div>
 
 

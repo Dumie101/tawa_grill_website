@@ -7,17 +7,17 @@ import './App.css';
 
 const App = () => (
   <div>
-    <Navheader/>
     <Navbar />
     <Header />
-    {/* <AboutUs />
-    <SpecialMenu />
+    {/* <Navheader/> */}
+    <AboutUs />
+    {/* <SpecialMenu />
     <Chef />
     <Intro />
     <Laurels />
     <Gallery />
     <FindUs />
-    <Footer /> */}
+    <Footer />  */}
   </div>
 );
 

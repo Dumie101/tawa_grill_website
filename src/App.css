@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 4rem 8rem;
 }
 
 .flex__center {
@@ -90,11 +90,7 @@
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
-}
-
-.spoon__img {
-  width: 45px;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 2000px) {

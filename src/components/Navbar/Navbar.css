@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #5e0a0a;
+    background: var(--color--background);
     padding: 1rem 2rem;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .navbar-links li {
-    margin: 0 1rem;
+    margin: 0 3rem;
     cursor: pointer;
     font-family: var(--font-base);
     font-size: 25px;
