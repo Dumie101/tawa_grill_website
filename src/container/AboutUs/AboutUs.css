@@ -1,13 +1,19 @@
 .about_us {
 
     background-color: var(--color--background);
-    padding: 4rem 20rem;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+    height: 100vh;
+
 }
 
 .about_us_header {
-
     text-align: center;
-
-    
+    padding-bottom: 5%;
 }
 
+.about_us_images {
+    display: flex;
+    justify-content: space-between;
+    
+}

@@ -1,7 +1,7 @@
-
-
 .header {
     background-color: var(--color--background);
+    height: 100vh;
+
 }
 
 .header-h1 {
@@ -11,6 +11,7 @@
     text-transform: uppercase;
     line-height: 117px;
     font-size: 85px;
+    padding-bottom: 5%;
 }
 
 .header-img img {
