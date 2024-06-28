@@ -1,3 +1,13 @@
+p {
+  font-size: 20px;
+  font-family: Kalam;
+}
+
+h1 {
+  font-family: Kalam;
+  font-size: 45px;
+}
+
 .section__padding {
   padding: 4rem 8rem;
 }
