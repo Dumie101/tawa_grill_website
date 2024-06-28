@@ -1,19 +1,32 @@
 .about_us {
-
     background-color: var(--color--background);
-    padding: 3rem 10rem;
-    justify-content: space-between;
-    height: 100vh;
+    display: flex;
+    height: 60vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
+.image_div {
+    width: 40%;
+}
+
+.text_div {
+    width: 60%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.image {
+    width: 100%;
 }
 
 .about_us_header {
-    text-align: center;
-    padding-bottom: 5%;
+
+    margin-bottom: 5rem;
 }
 
-.about_us_images {
-    display: flex;
-    justify-content: space-between;
-    
+
+.about_us_header_text{
+    color: white;
+    margin-bottom: 2rem;
 }
