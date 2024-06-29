@@ -1,0 +1,27 @@
+.menu {
+    height: 100vh;
+}
+
+.ul {
+    color: black;
+}
+
+.li {
+    color: black;
+    list-style-type: none;
+}
+
+.navs {
+    color: black;
+
+    list-style-type: none;
+
+}
+
+.menu_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+

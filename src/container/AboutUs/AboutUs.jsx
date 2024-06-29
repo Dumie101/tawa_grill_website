@@ -3,7 +3,7 @@ import './AboutUs.css';
 import { images } from '../../constants';
 
 const AboutUs = () => (
-<div className="about_us" id="home">
+<div className="about_us" id="about_us">
   <div className="about_us_content">
 
     <div className="about_us_text">

@@ -1,23 +1,24 @@
 import React from 'react';
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { AboutUs, Header, Menu, Home } from './container';
 import { Navbar } from './components';
 import { Navheader } from './components';
 import './App.css';
+import{Routes, Route, BrowserRouter} from 'react-router-dom'
+
 
 const App = () => (
   <div>
-    <Navbar />
+    {/* <Navbar /> 
     <Header />
-    {/* <Navheader/> */}
-    <AboutUs />
-    {/* <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />  */}
+    <Navheader/> */}
+    {/* <AboutUs /> */}
+
+    <BrowserRouter> 
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+      </Routes>
+    </BrowserRouter>
   </div>
 );
 
