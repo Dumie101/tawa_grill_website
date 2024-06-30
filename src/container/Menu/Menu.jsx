@@ -5,24 +5,48 @@ import { NavLink } from 'react-router-dom';
 
 const data = [
 	{
-		title: 'All',
-		link: '/',
+		title: 'Appetizers',
+		link: '/Appetizers',
 	},
 	{
-		title: 'Breakfast',
-		link: '/breakfast',
-	},
-	{
-		title: 'Lunch',
-		link: '/lunch',
+		title: 'Rice',
+		link: '/Rice',
 	},
 	{
 		title: 'Dinner',
-		link: '/dinner',
+		link: '/Dinner',
 	},
 	{
-		title: 'Snacks',
-		link: '/snacks',
+		title: 'Drinks',
+		link: '/Drinks',
+	},
+	{
+		title: 'Tandoori Specialities',
+		link: '/Tandoori_Specialities',
+	},
+	{
+		title: 'Biryani',
+		link: '/Biryani',
+	},
+	{
+		title: 'Tawa Specials',
+		link: '/Tawa_Specials',
+	},
+	{
+		title: 'Vegetarian Curries',
+		link: '/Vegetarian_Curries',
+	},
+	{
+		title: 'Paneer Curries',
+		link: '/Paneer_Curries',
+	},
+	{
+		title: 'Non-vegetarian Curries',
+		link: '/Non_vegetarian_Curries',
+	},
+	{
+		title: 'Hakka Specialities',
+		link: '/Hakka_Specialities',
 	},
 ];
 
@@ -44,6 +68,8 @@ const Menu = ({title}) => {
           </li>
         ))}
       </ul>
+
+
     </div>
   )
 }
