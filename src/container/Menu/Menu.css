@@ -1,5 +1,4 @@
 .menu {
-    height: 100vh;
 }
 
 .ul {
@@ -13,9 +12,7 @@
 
 .navs {
     color: black;
-
     list-style-type: none;
-
 }
 
 .menu_items {
@@ -24,4 +21,3 @@
     align-items: center;
     gap: 8px;
 }
-

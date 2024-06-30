@@ -3,22 +3,23 @@ import './Menu.css';
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 
+
 const data = [
 	{
 		title: 'Appetizers',
 		link: '/Appetizers',
 	},
 	{
+		title: 'Indian Bread',
+		link: '/Indian_Bread',
+	},
+	{
 		title: 'Rice',
 		link: '/Rice',
 	},
 	{
-		title: 'Dinner',
-		link: '/Dinner',
-	},
-	{
-		title: 'Drinks',
-		link: '/Drinks',
+		title: 'Drinks & Desserts',
+		link: '/Drinks_and_Desserts',
 	},
 	{
 		title: 'Tandoori Specialities',
@@ -42,13 +43,14 @@ const data = [
 	},
 	{
 		title: 'Non-vegetarian Curries',
-		link: '/Non_vegetarian_Curries',
+		link: '/Non_Vegetarian_Curries',
 	},
 	{
 		title: 'Hakka Specialities',
-		link: '/Hakka_Specialities',
+		link: '/Hakka_Specialties',
 	},
 ];
+
 
 const Menu = ({title}) => {
   const [navs] = useState(data);
