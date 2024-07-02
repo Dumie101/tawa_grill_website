@@ -14,10 +14,12 @@ const App = () => (
     {/* <Navbar /> 
     <Header />
     <Navheader/> */}
-    {/* <AboutUs /> */}
     <BrowserRouter>
+      <Navbar />
+      <Header />
+      <AboutUs />
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='/' element={<Appetizers/>} />
         <Route path='/Appetizers' element={<Appetizers/>} />
         <Route path='/Indian_Bread' element={<Indian_Bread/>} />
         <Route path='/Rice' element={<Rice/>} />

@@ -55,21 +55,22 @@ const data = [
 const Menu = ({title}) => {
   const [navs] = useState(data);
   return (
-    <div className="menu" id="menu">
-      
-	  <div>
-        <h1>{title}</h1>
+    <div className="menu_header_container" id="menu">
+
+	  <p>Checkout our tasty menu</p>
+	  <div className="menu_header_text">
       </div>
 
-	  <ul className="menu_items">
-        {navs.map((nav, index) => (
-          <li key={index} className='li'>
-            <NavLink to={nav.link} className='navs'>
-              {nav.title}
-            </NavLink>
-          </li>
-        ))}
-      </ul>
+
+	<ul className="menu_items">
+		{navs.map((nav, index) => (
+		<li key={index} className='menu_links'>
+			<NavLink to={nav.link} className='menu_navs'>
+				{nav.title}
+			</NavLink>
+		</li>
+		))}
+	</ul>
 
 
     </div>

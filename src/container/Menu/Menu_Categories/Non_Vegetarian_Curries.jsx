@@ -7,7 +7,7 @@ import data from '../../../constants/data'
 const Non_Vegetarian_Curries = () => {
     const [meals]=useState(data)
   return (
-    <div>
+    <div className="menu_section">
         <Menu title='Non_Vegetarian_Curries'></Menu>
         {meals && (
             <MenuList meals={meals.data.filter((meal)=>meal.type==='Non_Vegetarian_Curries')}/>

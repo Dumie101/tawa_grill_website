@@ -1,7 +1,6 @@
 import AboutUs from './AboutUs/AboutUs';
 import Header from './Header/Header';
 import Menu from './Menu/Menu';
-import Home from './Menu/Home';
 import Appetizers from './Menu/Menu_Categories/Appetizers';
 import Biryani from './Menu/Menu_Categories/Biryani';
 import Drinks_and_Desserts from './Menu/Menu_Categories/Drinks_and_Desserts';
@@ -18,7 +17,6 @@ export {
   Header,
   AboutUs,
   Menu,
-  Home,
   Appetizers,
   Rice,
   Biryani,
